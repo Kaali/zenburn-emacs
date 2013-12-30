@@ -121,6 +121,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(compilation-mode-line-exit ((t (:foreground ,zenburn-green+2 :weight bold))))
    `(compilation-mode-line-fail ((t (:foreground ,zenburn-red :weight bold))))
    `(compilation-mode-line-run ((t (:foreground ,zenburn-yellow :weight bold))))
+;;;;; cscope
+   `(cscope-file-face ((t (:foreground ,zenburn-yellow))))
+   `(cscope-function-face ((t (:foreground ,zenburn-cyan))))
+   `(cscope-line-number-face ((t (:foreground ,zenburn-red))))
+   `(cscope-line-face ((t (:foreground ,zenburn-green))))
+   `(cscope-mouse-face ((t (:foreground ,zenburn-fg :background ,zenburn-bg-1))))
 ;;;;; grep
    `(grep-context-face ((t (:foreground ,zenburn-fg))))
    `(grep-error-face ((t (:foreground ,zenburn-red-1 :weight bold :underline t))))
